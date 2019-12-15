@@ -1,0 +1,187 @@
+/* Global */
+body {
+    color: white;
+    width: 960px;
+    font-family: Arial;
+}
+
+section {
+    height: 424px;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    color: white;
+}
+
+/* .s1 */
+
+.s1 {
+    position: relative;
+    height: 525px;
+}
+
+.s1 h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -160px;
+}
+
+.s1 h2 {
+    position: absolute;
+    top: 290px;
+    left: 60px;
+    background: rgba(114, 153, 254, 0.5);
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.s1 img {
+    display: block;
+}
+
+/* .s2 */
+
+.s2 {
+    text-align: center;
+    background-color: #7299FE;
+    padding-top: 27px;
+}
+
+.s2 h2 {
+    padding-bottom: 29px;
+}
+
+.s2 p, .s2 div {
+    padding-left: 41px;
+    padding-right: 47px;
+    padding-bottom: 30px;
+    text-align: left;
+    color: #F8F8F8;
+}
+
+.s2 button {
+    display: inline-block;
+    
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #D16FFF;
+    padding: 18px 57px;
+    border-radius: 20px;
+}
+
+/* .s3 */
+
+.s3 {
+    background-color: #9122FF;
+    padding-top: 31px;
+}
+
+.s3 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.s3 div {
+    padding: 10px;
+}
+
+/*.s4 */
+
+.s4 {
+    background-color: #FFD233;
+    padding-top: 42px;
+    text-align: center;
+}
+
+.s4 h2 {
+    text-align: center;
+}
+
+.s4 .table {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.s4 .row {
+    display: flex;
+}
+
+.s4 figure {
+    margin-left: 12px;
+}
+
+.s4 figure:first-child {
+    margin-left: 0;
+}
+
+/* .s5 */
+
+.s5 {
+    padding: 36px;
+    background-color: #3F4E62;
+    height: 250px;
+}
+
+.s5 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s5 h2 {
+    margin-bottom: 15px;
+}
+
+/* .s6 */
+
+.s6 {
+    background-color: #1687A0;
+    padding: 34px;
+    height: 578px;
+}
+
+.s6 h2 {
+    padding-bottom: 27px;
+}
+
+.s6 div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s6 input {
+    padding: 20px 10px;
+    margin-bottom: 30px;
+    width: 360px;
+}
+
+.s6 button {
+    background-color: #233451;
+    font-size: 18px;
+    padding: 18px 49px;
+}
+
+.s6 textarea {
+    font-family: Arial;
+    width: 760px;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+}
+
+
